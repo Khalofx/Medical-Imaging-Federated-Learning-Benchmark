@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large datasets and generated training artifacts
+NIH_Chest_Xrays/
+NIH_Chest_Xrays.zip
+checkpoints/
+logs_slurm/
+slurm-*.out
+slurm-*.err
+
+# Keep analysis outputs in results/, but exclude the large binary split cache
+results/data_splits.pt

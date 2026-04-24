@@ -1,0 +1,26 @@
+{
+  "DP-FedAvg_alpha0.1": {
+    "algorithm": "DP-FedAvg",
+    "alpha": 0.1,
+    "status": "skipped",
+    "note": "Skipped: Opacus + ViT/timm attention stack is incompatible in the current software environment."
+  },
+  "DP-FedAvg_alpha0.5": {
+    "algorithm": "DP-FedAvg",
+    "alpha": 0.5,
+    "status": "skipped",
+    "note": "Skipped: Opacus + ViT/timm attention stack is incompatible in the current software environment."
+  },
+  "DP-FedAvg_alpha1.0": {
+    "algorithm": "DP-FedAvg",
+    "alpha": 1.0,
+    "status": "skipped",
+    "note": "Skipped: Opacus + ViT/timm attention stack is incompatible in the current software environment."
+  },
+  "DP-FedAvg_alpha5.0": {
+    "algorithm": "DP-FedAvg",
+    "alpha": 5.0,
+    "status": "skipped",
+    "note": "Skipped: Opacus + ViT/timm attention stack is incompatible in the current software environment."
+  }
+}

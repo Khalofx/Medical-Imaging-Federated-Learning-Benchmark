@@ -1,0 +1,30 @@
+name: fl_cxr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # ── Core ML ───────────────────────────────────────────────
+  - pytorch::pytorch=2.2.0
+  - pytorch::torchvision=0.17.0
+  - pytorch::pytorch-cuda=11.8     # remove this line if no GPU on your node
+
+  # ── Scientific stack ──────────────────────────────────────
+  - conda-forge::numpy=1.26.4
+  - conda-forge::pandas=2.2.1
+  - conda-forge::scikit-learn=1.4.1
+  - conda-forge::matplotlib=3.8.3
+  - conda-forge::seaborn=0.13.2
+  - conda-forge::pillow=10.2.0
+  - conda-forge::tqdm=4.66.2
+
+  # ── Pip-only packages (not on conda) ─────────────────────
+  - pip:
+    - timm==0.9.16
+    - flwr==1.7.0
+    - opacus==1.4.0
